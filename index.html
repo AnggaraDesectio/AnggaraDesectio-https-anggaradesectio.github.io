@@ -170,7 +170,9 @@
           From: document.getElementById("email").value,
           Subject: "Pesan Dari My Portofolio",
           Body: "Name: " + document.getElementById("name").value + "<br> Email: " + document.getElementById("email") + "<br> Pesan: " + document.getElementById("pesan"),
-        }).then((message) => alert("Pesan Terkirim"));
+        }).then(
+          message => alert("Pesan Terkirim")
+        );
       }
     </script>
   </body>
